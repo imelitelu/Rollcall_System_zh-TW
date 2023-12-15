@@ -21,18 +21,20 @@
 
 ## 如何使用  
 ### 1.安裝相關套件
+ - 安裝[mysql](https://dev.mysql.com/doc/connector-python/en/)
+
 ```
 #在終端機中執行以下命令
 pip install mysql-connector-python
 ```
 
 ### 2.創建資料庫
-- 請使用提供的 MySQL 資料庫相關資訊，手動創建資料庫 mydb。
+- 請執行create_tables裡面的兩個檔案進行資料庫建立，或手動創建資料庫 mydb。
 
 ### 3.執行主程式
 ```
 #在終端機中執行主程式
-python 主程式檔案名稱.py
+python Rollcall_Management_System v1.0.1.py
 ```
 
 ### 4.選擇身分
